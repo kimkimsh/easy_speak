@@ -1,0 +1,58 @@
+# --- Claude Code ---
+# Machine-local settings and permission allowlists; shared .claude/settings.json stays tracked.
+.claude/settings.local.json
+.claude/local/
+.claude/*.local.json
+
+# Local session history / memory produced by plugins (never share from a public repo)
+.remember/
+.gbrain/
+
+# --- Secrets & environment ---
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+secrets.json
+credentials.json
+
+# --- Python (skill scripts) ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# --- Node (skill scripts / tooling) ---
+node_modules/
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+dist/
+build/
+
+# --- Editors / IDE ---
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*~
+
+# --- OS ---
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+desktop.ini
+
+# --- Scratch / logs / temp ---
+*.log
+tmp/
+temp/
+scratch/
+.cache/
