@@ -1,6 +1,6 @@
 {
   "name": "easy-speak",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Makes Claude explain things so you actually understand them, in any language. Fixes the audience first, frames before detailing, and verifies understanding instead of assuming it.",
   "author": {
     "name": "kimkimsh",

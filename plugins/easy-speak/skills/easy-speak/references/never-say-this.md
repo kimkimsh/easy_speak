@@ -1,6 +1,6 @@
 # Never say this
 
-Load this whenever the user asks you *about* communication — how to present, how to write, how people learn, what the research says.
+Load this when the user asks a question *about* communication itself — what the research says, whether a claim is real, how people learn, how presenting or explaining works. This is about the **claims**, not about writing tasks: an ordinary "help me write this commit message" does not need this file.
 
 This field is unusually polluted. The most quotable claims in it are the ones that died. Each entry below was killed by adversarial verification against the primary source.
 

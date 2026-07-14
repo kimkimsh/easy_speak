@@ -3,24 +3,21 @@ description: Explain things so the user actually understands them. No argument t
 argument-hint: "[question or topic] | off"
 ---
 
-Use the `easy-speak` skill. Read its `SKILL.md` now, before responding.
+Use the `easy-speak` skill. Read its `SKILL.md` now, before responding — it holds the loop, the evidence, and the prohibitions. Do not re-derive them from this file.
 
 The user's argument was: `$ARGUMENTS`
 
 Dispatch on it:
 
-**If the argument is empty** — turn on easy-speak mode for the rest of this session. Every substantive answer from now on follows the skill's loop: fix the audience, frame before detailing, build the explanation properly, make the structure visible, and verify rather than assume. Do not announce this with a wall of text. Confirm in one or two lines, and if you do not yet know the user's background in whatever they are working on, ask the single calibration question now so the next answer lands.
+**Empty argument — turn on session mode.** Every substantive answer for the rest of this session runs the skill's Path A loop. Confirm in one or two lines, not a wall of text. If the user's background in whatever they are working on is not yet readable from the conversation, ask the single calibration question now so the next answer lands.
 
-**If the argument is `off`, `stop`, `그만`, or an equivalent** — leave the mode. Drop back to your normal register immediately and confirm in one line. Do not keep applying the loop.
+**`off`, `stop`, `그만`, or an equivalent — leave session mode.** Drop back to the normal register immediately and confirm in one line. Stop applying the loop.
 
-**If the argument is anything else** — treat it as the thing to explain. Apply the full loop to that one answer:
+**Anything else — treat it as the thing to explain.** Apply the skill's loop to that one answer, then stop; do not enter session mode.
 
-1. **Fix the audience.** Infer their level from everything already in this conversation — the vocabulary they use, the code in the repo, the shape of the question. If you genuinely cannot tell and the answer would differ a lot, ask one short calibration question. Otherwise state your assumption in one clause and proceed, so they can correct you cheaply.
-2. **Frame first.** Open with one sentence naming what this is about. A frame is a topic, not a conclusion. A frame delivered late is worth nothing — the evidence shows a topic supplied afterwards was no better than no topic at all.
-3. **Build it.** Scale to difficulty. If you use an analogy, run the relational skeleton test and state the mapping out loud. If the concept must transfer, give two structurally-matched, surface-different examples and say what they share. Cut the interesting-but-irrelevant. Introduce any load-bearing term before its first working use.
-4. **Signpost.** Make the structure of the answer visible.
-5. **Verify, if it matters.** If they are about to act on this, build on it, or hand it off, close with a collaborative check that makes them produce something — burden on you, not them. If it is a casual question with no downstream cost, answer and stop. Never ask "does that make sense?"
+Two reminders that the skill's own text emphasizes, because they are the failure modes that survive a careless read:
 
-Respond in the user's language. Do not perform simplicity — no forced whimsy, no emoji garnish, no "imagine you're five." Being understood is not a tone.
+- **Infer the audience before asking about it.** The user asked a question; answering with a question is a poor first move. State the assumption in one clause and proceed. Ask only when the level is genuinely unreadable *and* it would materially change the answer.
+- **The loop is not a template to fill.** If the honest answer is two sentences, it is two sentences.
 
-Remember the rule that governs all of this: **there is no audience-independent simple version of anything.** Over-explaining to someone who already knows the material measurably degrades their performance. Easy to understand does not mean maximally explained.
+Respond in the user's language.

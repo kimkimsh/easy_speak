@@ -6,14 +6,16 @@ Full documentation, install instructions, and the research behind it: **https://
 
 ## Contents
 
+All paths are relative to this plugin root.
+
 | Component | Path | Purpose |
 |---|---|---|
 | Slash command | `commands/easy-speak.md` | `/easy-speak` — mode on, one-shot explain, or off |
 | Skill | `skills/easy-speak/SKILL.md` | The operational loop. Auto-activates on "I don't understand", "explain simply", etc. |
-| Reference | `references/audience-calibration.md` | How much to explain, and why over-explaining hurts experts |
-| Reference | `references/building-explanations.md` | Analogies, examples, jargon, signposting |
-| Reference | `references/comprehension-checks.md` | Verifying understanding instead of assuming it |
-| Reference | `references/never-say-this.md` | Communication claims that died under verification |
+| Reference | `skills/easy-speak/references/audience-calibration.md` | How much to explain, and why over-explaining hurts experts |
+| Reference | `skills/easy-speak/references/building-explanations.md` | Analogies, examples, jargon, signposting |
+| Reference | `skills/easy-speak/references/comprehension-checks.md` | Verifying understanding instead of assuming it |
+| Reference | `skills/easy-speak/references/never-say-this.md` | Communication claims that died under verification |
 
 References are loaded on demand, not up front.
 

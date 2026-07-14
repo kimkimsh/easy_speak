@@ -6,14 +6,14 @@
   },
   "metadata": {
     "description": "Makes Claude explain things so you actually understand them. Built on adversarially-verified research in cognitive science and psycholinguistics. Language-neutral.",
-    "version": "1.0.0"
+    "version": "1.1.0"
   },
   "plugins": [
     {
       "name": "easy-speak",
       "source": "./plugins/easy-speak",
       "description": "Makes Claude explain things so you actually understand them, in any language. Fixes the audience first, frames before detailing, and verifies understanding instead of assuming it.",
-      "version": "1.0.0"
+      "version": "1.1.0"
     }
   ]
 }
