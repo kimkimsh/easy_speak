@@ -28,10 +28,14 @@ Being understood is not a property of a well-formed message. It is a state you a
 | 08 | [Checking comprehension](08-checking-comprehension.md) | The only move that verifies understanding instead of assuming it |
 | 09 | [Myths and contested claims](09-myths-and-contested-claims.md) | 7-38-55, the 8-second attention span, learning styles, and 20+ claims that died under verification |
 | 10 | [The rule set](10-actionable-rules.md) | The distilled, checkable rules, each traceable to its evidence and its confidence tier |
-| 11 | [Bibliography](11-bibliography.md) | All 74 sources, with citation-hygiene warnings |
+| 11 | [Bibliography](11-bibliography.md) | All 74 adjudicated sources plus the 18 quote-checked writing-mode entries, with citation-hygiene warnings |
 | 12 | [Open questions](12-open-questions.md) | How this was built, what is still unknown, and what must not be relied on |
+| 13 | [Writing documents](13-writing-documents.md) | When the reader is not in the room: does revising help, what a non-linear reader needs, what the medium costs, what an author can check alone |
+| 14 | [Software documentation](14-software-documentation.md) | READMEs, API docs, commit messages, code review — and why this layer is descriptive rather than causal |
 
-## Four findings that change how you'd build this skill
+**Documents 13 and 14 are a weaker evidence tier and say so on their first screen.** They were added after the two verification passes, so their sources — 18 catalogued entries linking 29 URLs — were fetched and quote-checked once, not sent to three verifiers instructed to refute them. Nothing in them carries a `3-0`. Given that 38% of everything comparable that *was* adjudicated did not survive, treat the difference as real.
+
+## Five findings that change how you'd build this skill
 
 **You cannot check your own clarity, so the skill must not let you try.** Newton's tappers predicted listeners would identify ~50% of tapped songs. The true rate was 3 out of 120 — a figure below every single prediction any tapper made. Paying people to be accurate does not fix it; telling them the outcome does not fix it. The only instrument that works is the receiver producing something back.
 
@@ -40,6 +44,8 @@ Being understood is not a property of a well-formed message. It is a state you a
 **Readability formulas are the wrong instrument — and asking an LLM to judge readability is no better.** Both were tested against eye-tracking data and both failed. The one signal with genuine cross-linguistic support is **surprisal**, validated across 11 languages in 5 families (including Korean). Use it to *locate* hard passages. Never use it as a rewrite target — that is exactly the Goodhart failure that discredited the formulas.
 
 **Most "debunked" claims are not lies; they are one step of overreach on a real finding.** Mayer's design principles do work — but the famous effect sizes are the author's own vote-counts, and independent meta-analyses land at a third of the size. The behavioural effects are real while the cognitive-load explanation everyone gives for them is *not* supported. Flattening this into "true" or "false" loses the thing you actually needed to know.
+
+**When you write a document, the only valid check is gone, and nothing replaces it.** Revising documents demonstrably helps real readers — for one U.S. Department of Veterans Affairs letter, the share of veterans who *failed to understand* it fell from 56% to 11% — but every one of those results came from changing several things at once, so none of them prices an individual rule. And the instrument that produced them was *readers*, not the author. An author can inspect a draft for undefined terms, dangling referents and missing preconditions; an author cannot certify that anyone will understand it, and neither can a language model rereading its own output. Finishing a document with reader comprehension untested is the normal outcome. Claiming otherwise is the failure. See [13-writing-documents.md](13-writing-documents.md).
 
 ## How this was built
 
@@ -61,6 +67,8 @@ Refuted claims were **kept, not discarded** — they are the raw material of doc
 - **`3-0`** — unanimous under adversarial verification. **`2-1`** — split; the direction is likely sound, the magnitude is not.
 - **REFUTED** — killed on merit. The refutation reasoning is preserved, because it is usually the more useful half.
 - **UNVERIFIED** — extracted but never adjudicated. Never rely on it.
+- **QUOTE-CHECKED** — documents 13 and 14 only. The source was fetched and the quote read in the primary document, one pass, no adversarial round. Weaker than `3-0`, stronger than UNVERIFIED.
+- **INFERENCE** — a rule derived from a source that did not test it. Never cite the source as if it did.
 - **HEURISTIC** — a useful smell-test with no study behind it. Labelled as such every time it appears.
 - **ENGLISH-ONLY** — an artifact of English that must not be generalized (readability formulas, word counts, focal stress, cleft constructions, English backchannels).
 

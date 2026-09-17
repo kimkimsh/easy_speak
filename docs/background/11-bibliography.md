@@ -1,7 +1,7 @@
 # Bibliography
 
-> **What this is.** The complete source list behind the `easy_speak` knowledge base — 74 URLs, grouped by source quality and, within the primary tier, by topic area, each with its adjudicated verdicts and a note on what it may and may not be cited for.
-> **Evidence base.** 209 distinct claims went through 3-vote adversarial verification against these 74 sources: **80 CONFIRMED**, **50 REFUTED**, **79 UNVERIFIED** (extracted but never adjudicated). Every one of the 74 URLs carries at least one adjudicated claim.
+> **What this is.** The complete source list behind the `easy_speak` knowledge base — 74 adjudicated URLs, grouped by source quality and, within the primary tier, by topic area, each with its adjudicated verdicts and a note on what it may and may not be cited for. Plus a **writing-mode section** added later for documents 13 and 14 — 18 catalogued entries, linking 29 further URLs, none of them overlapping the 74 — in its own section near the end, at a lower and clearly-marked evidence tier. **Entries are not papers and URLs are not studies**: some entries cover two papers, and some URLs are corrections, reanalyses or counter-sources rather than the entry's own source.
+> **Evidence base.** 209 distinct claims went through 3-vote adversarial verification against the original 74 sources: **80 CONFIRMED**, **50 REFUTED**, **79 UNVERIFIED** (extracted but never adjudicated). Every one of the 74 URLs carries at least one adjudicated claim. **The writing-mode sources carry no votes at all** — they were fetched and quote-checked once, after both passes had closed.
 > **Load this when.** The coaching task involves citing a source, re-sourcing a rule, checking whether a specific number is safe to quote, or deciding whether a famous finding survives contact with its primary literature.
 
 ---
@@ -468,6 +468,121 @@ Only these may be quoted as numbers. Everything else in the dossier's numeric in
 The dossier's verification notes and synthesis cite ~44 further URLs as **counter-sources, replications and qualifications** inside individual adjudications (for example: Miller 1956 at psychclassics.yorku.ca; Thalmann, Souza & Oberauer on chunk size; Ericsson & Kintsch's long-term working memory revision; Hawkins et al. 2020 and Davies 2007 on least collaborative effort; Arnold et al. 2000 on given-new as a gradient preference; Sadoski, Paivio & Goetz on the "bizarre texts" generalization ceiling; Dingemanse et al. 2015 on 12 languages; Elgin et al. 2001 reversing the NN/g concise effect; the Stanford author copy of Clark & Brennan; digital.gov and the ies.ed.gov FPLG mirror).
 
 **These are not part of the 74-source list and are not independently adjudicated here.** They are named so that a reader who finds them quoted in a sibling document knows where they came from and that they carry the status of *supporting citation inside a verification note*, not *verified source*.
+
+---
+
+# Writing-mode sources (documents 13 and 14) — QUOTE-CHECKED tier
+
+**These entries are not part of the 74** — 18 catalogued entries linking 29 distinct URLs, zero overlap with the adjudicated list. They were added for the writing extension, after both verification passes had closed. Each was fetched, opened, and the quoted text read in the primary document — but **none went through three-verifier adversarial adjudication**, so none carries a vote. The tier sits below CONFIRMED and above UNVERIFIED.
+
+Given that 38% of the adjudicated claims died, and that the typical casualty was a real finding stretched one step past its source, **assume these have not been checked for that stretch.**
+
+## Does revising a document help? (3)
+
+**W-01 — Kimble, J. (1996–97), "Writing for Dollars, Writing to Please," *The Scribes Journal of Legal Writing* 6.**
+https://scribes.org/wp-content/uploads/2022/12/Scribes_vol6_04_Writing_for_Dollars.pdf
+*Good for:* field results of document revision, with their numbers — VA letter failed-to-understand **56% → 11%**, reading time 8→6 min, "somewhat difficult" 44%→**0%**; Suchan & Colucci (1989, *Management Communication Quarterly* 2:454, n = 262 naval officers) higher accuracy on **all seven** questions and **17–23%** less reading time; Kimble's South African Bill test (43 students + 24 staff) **~19%** more accurate, **7%** faster, difficulty 6.52→4.35; preference across Michigan/Florida/Louisiana/Texas, **1,462** judges and lawyers, **80–86%**; Victoria Takeovers Code comprehended in **half to a third** of the time.
+*Do not cite for:* any individual writing rule. **Every intervention is a bundle** (reorganized + rewritten + often redesigned), and this is an advocate's collection with no pooling, no bias correction and no reproducible inclusion protocol. Several entries are agency reports "on file with author". See `[09 C3]`.
+
+**W-02 — Charrow, R.P. & Charrow, V.R. (1979), "Making Legal Language Understandable: A Psycholinguistic Study of Jury Instructions," *Columbia Law Review* 79:1306–1374.**
+https://www.semanticscholar.org/paper/c3f30985e21414d02f80fe057b0a7ee46e940234
+*Good for:* the controlled design — 14 California pattern civil jury instructions, paraphrase-based comprehension scoring, substantial gains after linguistic revision.
+*Caveat:* the full text was **not retrievable in this session**, so this entry is checked at the level of design and direction only, not page-level quotes. **EN** — oral delivery, English legalese, 1979; the identified culprits are English constructions.
+
+**W-03 — Carroll, J.M., Smith-Kerker, P.L., Ford, J.R. & Mazur-Rimetz, S.A. (1987), "The Minimal Manual," *Human–Computer Interaction* 3(2):123–153.**
+http://swcarpentry.github.io/swc-releases/2017.02/instructor-training/files/papers/carroll-minimal-manual-1987.pdf
+*Good for:* the one **task-outcome** experiment in this knowledge base. Experiment 1: **40% less learning time**, *t*(17) = 3.06, *p* < .01; **2.7×** as many performance subtasks, *t*(16) = 3.63, *p* < .01; basic tasks alone **+50%**, *t*(16) = 2.11, *p* = .05. The four design principles, in the paper's own contents list: *Focus on Real Tasks and Activities*, *Slash the Verbiage*, *Support Error Recognition and Recovery*, *Guided Exploration*.
+*Do not cite for:* "better by a factor of eight" — **that phrase appears in secondary summaries and not in the paper.** Nor for brevity alone: four principles varied together. In Experiment 2 the getting-started differences were "statistically significant only in the case of time to start the system up, *F*(1,28) = 5.92, *p* < .05." n ≈ 19 in Experiment 1; 1987; paper manuals.
+*Replication:* Lazonder, A.W. & van der Meij, H. (1993), "The minimal manual: is less really more?", *Int. J. Man–Machine Studies* 39:729–752 — 64 Dutch first-year students, results resembled the original. https://www.semanticscholar.org/paper/d5373fcf6f523a84022a16fef32f2a3b0ed3c810
+
+## Structure, entry points, and the medium (5)
+
+**W-04 — Delgado, P., Vargas, C., Ackerman, R. & Salmerón, L. (2018), "Don't throw away your printed books: A meta-analysis on the effects of reading media on reading comprehension," *Educational Research Review*.**
+https://www.uv.es/lasalgon/papers/Delgado%202018%20dont%20throw%20away%20your%20printed%20books.pdf
+*Good for:* **Hedge's g = −.21** (*d_c* = −.21), between-participant *n* = 38 and within-participant *n* = 16 designs, **171,055** participants; and the three moderators verbatim — the paper advantage **increased under time pressure**, was consistent for **informational** texts "but not on those using only narrative texts", and **increased over the years**.
+*Do not cite for:* a recommendation to print anything. The medium is rarely the writer's choice, and the corpus is study texts with reading-comprehension tests.
+
+**W-05 — McNamara, D.S., Kintsch, E., Songer, N.B. & Kintsch, W. (1996), "Are Good Texts Always Better? …," *Cognition and Instruction* 14(1):1–43.**
+https://www.jstor.org/stable/3233687
+*Good for:* the reverse cohesion effect — low-knowledge readers benefited from a coherent text, **high-knowledge readers benefited from a minimally coherent one**, because the gaps forced inference. The text-side sibling of expertise reversal.
+*Do not cite for:* "write incoherently for experts." Junior-high sample, "high knowledge" relative within it, one text, and an **interaction** rather than a main effect.
+
+**W-06 — Sanchez, R.P., Lorch, E.P. & Lorch, R.F. (2001), "Effects of Headings on Text Processing Strategies," *Contemporary Educational Psychology* 26(3):418–428.**
+https://pubmed.ncbi.nlm.nih.gov/11414729/
+*Good for:* headings in written text — college students, a 12-topic expository text; readers with headings and/or mental-outline training remembered topics and their organization better.
+
+**W-07 — Lorch, R.F. et al., on signaling topic structure, including headings vs preview sentences.**
+https://scholars.uky.edu/en/publications/effects-of-signaling-topic-structure-on-text-recall/ · https://www.sciencedirect.com/science/article/pii/S1135755X13700113
+*Good for:* two things a writer can act on. **(a)** Signals redistribute recall — subjects "remembered more topics but recalled less about each accessed topic". **(b)** Headings beat preview sentences at capturing attention to topic structure; on memory for facts, and in an outlining task, the two did not reliably differ. Previews "do not elicit readers' attention to topic information as readily as headings do."
+*Do not cite for:* a claim that headings always increase total recall. They change its distribution.
+
+**W-08 — Dee-Lucas, D. & Larkin, J.H. (1995), "Learning From Electronic Texts: Effects of Interactive Overviews for Information Access," *Cognition and Instruction* 13(3):431–468.**
+https://www.tandfonline.com/doi/abs/10.1207/s1532690xci1303_4
+*Good for:* both overviews beat continuous text on memory for topics and breadth of recall; the **structured** overview (a hierarchical map) was easier to recall and use than the unstructured, menu-like one, which produced a more fragmented knowledge structure when readers had no specific goals.
+*Caveat:* 1995 electronic text.
+
+**W-09 — DeStefano, D. & LeFevre, J.-A. (2007), "Cognitive load in hypertext reading: A review," *Computers in Human Behavior* 23:1616–1641.**
+https://www.semanticscholar.org/paper/200304b3639d5ac8382419099efda8a22b822bd1
+*Good for:* learning tends to be better with **fewer links**; decision-making and visual-processing demands impaired reading performance; working memory and prior knowledge moderate it; networked structures impair navigation efficiency.
+*Do not cite for:* a numeric link budget. It is a review, not a pooled estimate, and it predates modern documentation tooling.
+
+**W-10 — Hartley, J. (2004), "Current findings from research on structured abstracts: an update."**
+https://www.researchgate.net/profile/James-Hartley-4/publication/8464870_Current_findings_from_research_on_structured_abstracts_an_update/links/54a1387a0cf257a6360263a6/Current-findings-from-research-on-structured-abstracts-an-update.pdf
+*Good for:* structured abstracts being more informative, more readable and judged clearer — **and significantly longer**.
+*Do not cite for:* "faster to search" or "better recall" as settled, or as a licence for per-section framing in ordinary documents. Hartley's own limits: **no search-speed advantage in the realistic MEDLINE comparisons**, **no recall advantage once length and readability were equated**, and **no whole-article studies**. The review is by the format's principal advocate.
+*Citation hygiene:* an earlier draft of this bibliography linked https://journals.sagepub.com/doi/10.1177/0165551511420217 for this entry. That is **Zhang & Liu (2011), a third-party review of Hartley's research programme** — a different document. Cite whichever you actually read.
+
+## Checking a document without a reader (2)
+
+**W-11 — Schriver, K.A., "Plain Language for Expert or Lay Audiences: Designing Text Using Protocol-Aided Revision."**
+https://www.karenschriverassociates.com/wp-content/uploads/2020/03/12-Schriver-Plain-language-for-experts-or-lay-audiences-Designing-w-Protocol-aided-Revision.pdf
+*Good for:* the field's own answer to "how do you know it is clear" — "actual reader feedback is the most sensible and effective criterion for deciding whether a text is written in plain language"; "a method for helping writers see problems in text that they might otherwise miss"; **"five participants per cycle"**; **"a rough rule of thumb is that the first pass finds about half of the reader's problems"**.
+*Do not cite for:* any of it as measured. The paper itself says "It is important not to confuse protocol-aided revision with an experiment — its goal is neither hypothesis testing nor verification," and labels the halving figure a rule of thumb.
+
+**W-12 — Schriver, K.A. (1992), "Teaching Writers to Anticipate Readers' Needs: A Classroom-Evaluated Pedagogy," *Written Communication* 9(2):179–208.**
+https://journals.sagepub.com/doi/10.1177/0741088392009002001
+***NOT CHECKED.*** The full text was not retrievable in this session (HTTP 403). Listed as the right next source for reader-based revision pedagogy. **No number from it may be quoted until it has been opened.**
+
+## Software documentation (5)
+
+**W-13 — Robillard, M.P. & DeLine, R. (2011), "A field study of API learning obstacles," *Empirical Software Engineering* 16(6):703–732.**
+https://www.cs.mcgill.ca/~martin/papers/ese2011.pdf
+*Good for:* ">440 professional developers"; "some of the most severe obstacles faced by developers learning new APIs pertained to the documentation"; and the five factors verbatim — "documentation of intent; code examples; matching APIs with scenarios; penetrability of the API; and format and presentation." Penetrability is quoted from Clarke as "how the API facilitates exploration, analysis, and understanding of its components."
+*Do not cite for:* any comprehension outcome. Surveys and interviews at one company, 2009–2011; this is self-reported severity.
+*Companion:* Robillard (2009), "What Makes APIs Hard to Learn? Answers from Developers," *IEEE Software* 26(6) — https://www.cs.mcgill.ca/~martin/papers/software2009a.pdf
+
+**W-14 — Prana, G.A.A., Treude, C., Thung, F., Atapattu, T. & Lo, D. (2019), "Categorizing the Content of GitHub README Files," *Empirical Software Engineering* 24:1296–1327.**
+https://arxiv.org/abs/1802.06997
+*Good for:* **4,226** README sections from **393** randomly sampled repositories, **eight** categories (*what, why, how, when, who, references, contributions, other*), classifier **F1 = 0.746**; and the finding verbatim: "Information discussing the 'What' and 'How' of a repository is very common, while many README files lack information regarding the purpose and status of a repository."
+*Do not cite for:* an eight-section README template. The study classified what exists; it never tested that any arrangement serves a reader better.
+
+**W-15 — Tian, Y., Zhang, Y., Stol, K.-J., Jiang, L. & Liu, H. (2022), "What Makes a Good Commit Message?", ICSE 2022.**
+https://arxiv.org/abs/2202.02974
+*Good for:* the What/Why definition, and "a sample of almost 1,600 messages from five highly active open source projects… an average of circa 44% of messages could be improved."
+*Citation hygiene:* the **ICSE conference listing says circa 40%**, the arXiv abstract says **circa 44%**. Cite one and say which. Do not average them.
+*Do not cite for:* a measured cost to any reader. "Could be improved" is an annotator rubric, built to be machine-applicable for training commit-message generators.
+
+**W-16 — Bacchelli, A. & Bird, C. (2013), "Expectations, Outcomes, and Challenges of Modern Code Review," ICSE 2013:712–721.**
+https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/ICSE202013-codereview.pdf
+*Good for:* "code and change understanding is the key aspect of code reviewing"; "understanding is their main challenge when doing code reviews"; a senior developer's "the most difficult thing when doing a code review is understanding the reason of the change"; a tester's "the biggest information need in code review: what instigated the change". Method: 17 developers observed across 16 teams, interviews, surveys, **570** classified comments.
+*Do not cite for:* "a better description fixes it." The same page records "the description is not enough" and names unfamiliarity with the files as a major independent cause. See `[09 C4]`.
+
+**W-17 — Aghajani, E. et al. (2019), "Software Documentation Issues Unveiled," ICSE 2019:1199–1210; and (2020), "Software Documentation: The Practitioners' Perspective," ICSE 2020.**
+https://2019.icse-conferences.org/details/icse-2019-Technical-Papers/49/Software-Documentation-Issues-Unveiled
+*Good for:* **878** documentation-related artifacts mined from mailing lists, Stack Overflow, issue trackers and pull requests → a **162**-issue taxonomy; validated in the follow-up through two surveys of **146** practitioners. Quote the 2020 paper exactly: "inappropriate installation instructions was the most frequently encountered issue and, together with faulty tutorial, the one considered relevant by most practitioners (65% of them)." (2020 PDF: https://www.inf.usi.ch/lanza/PUBS/P/Agha2020a.pdf)
+*Do not cite for:* "65% of practitioners encounter faulty tutorials." **Wrong column.** The paper's "% important" legend reads "the percentage of surveyed practitioners that indicated the related issue as an important one", and "% frequently faced" is a different column. 65% is also not unique to faulty tutorials — missing user documentation, accessibility/findability and lack of time to write documentation all sit at 65% on the same measure. Nor for a priority order generally: issue-tracker mining over-samples what gets filed, and a taxonomy of complaints is not a taxonomy of measured harm.
+
+**W-18 — Virtaluoto, J., Suojanen, T. & Isohella, S. (2021), "Minimalism Heuristics Revisited: Developing a Practical Review Tool."**
+https://osuva.uwasa.fi/bitstreams/e96bd3f9-c878-49ae-9cc0-e5774f840bdf/download
+*Good for:* the status of van der Meij & Carroll's (1995, 1998) heuristics — "based on solid empirical research, and are intended as a tool for developing documentation" — together with the authors' observation that they "do not seem to be applied in everyday practice" and that minimalism's original context "is very different" today.
+*Do not cite for:* the heuristic set as experimentally validated. W-03 is the experiment; the derived heuristics are a practitioner framework.
+
+## Also cited in 13, outside the tiers above
+
+- **Dunlosky, J., Rawson, K.A., Marsh, E.J., Nathan, M.J. & Willingham, D.T. (2013)**, "Improving Students' Learning With Effective Learning Techniques," *Psychological Science in the Public Interest* 14(1):4–58 — https://journals.sagepub.com/doi/abs/10.1177/1529100612453266. Cited for the utility ratings: **highlighting and rereading are LOW utility**, alongside summarization, the keyword mnemonic and imagery for text learning. **Also cited against this knowledge base's own position:** the same review rates **self-explanation only MODERATE**, which is a live tension with Bisra et al.'s g = 0.55 (P-18). Both are in the record.
+- **Disfluent-font replications** — Taylor et al. (2020), *Memory* 28(7), https://www.tandfonline.com/doi/full/10.1080/09658211.2020.1758726 · Wetzler, Pyke & Werner (2021), *SAGE Open*, https://journals.sagepub.com/doi/full/10.1177/21582440211056624 · Huff, Maxwell & Mitchell (2022), *Cogn. Research*, https://link.springer.com/article/10.1186/s41235-022-00448-9. See `[09 C1]`.
+- **Hebert, M., Bohaty, J.J., Nelson, J.R. & Brown, J. (2016)**, "The effects of text structure instruction on expository reading comprehension: A meta-analysis," *Journal of Educational Psychology* 108(5):609–629 — https://files.eric.ed.gov/fulltext/ED648909.pdf. Cited **as a misuse warning**: it teaches readers, it does not manipulate text. See `[09 C2]`.
+- **Černý, J., Kvapilíková, I. & Cinková, S. (2026)**, "Glitter: Visualizing Lexical Surprisal for Readability in Administrative Texts," arXiv 2601.05411 — https://arxiv.org/abs/2601.05411. An **unrefereed preprint** and a tool paper. Corroborates surprisal-as-locator; adds no warrant for surprisal as a rewrite target.
 
 ---
 

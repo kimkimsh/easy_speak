@@ -1,7 +1,7 @@
 # Open questions, unverified material, and known limits of this knowledge base
 
 > **What this is.** The audit trail for every other document in this knowledge base: how the evidence was gathered and adjudicated, which of its rules are weaker than they look, which questions are still open, and which extracted material was never checked and therefore may not be used.
-> **Evidence base.** 80 confirmed claims and 50 refuted claims across two adversarial verification passes (pass 1: 32 confirmed / 28 refuted; pass 2: 48 confirmed / 22 refuted). A further 79 pass-1 claims were extracted but never adjudicated.
+> **Evidence base.** 80 confirmed claims and 50 refuted claims across two adversarial verification passes (pass 1: 32 confirmed / 28 refuted; pass 2: 48 confirmed / 22 refuted). A further 79 pass-1 claims were extracted but never adjudicated. **Documents 13 and 14 add 18 catalogued source entries (29 URLs) at a lower tier** — fetched and quote-checked once, no adversarial round, no votes.
 > **Load this when.** The coaching task involves citing a number, quoting a rule as authoritative, generalizing a finding to a new language, deciding how much confidence a recommendation deserves, or answering "how do you know that?"
 
 ---
@@ -164,6 +164,39 @@ What the knowledge base does supply is the **dimensions**, not the rule. Clark &
 
 **Operational consequence, stated honestly:** for async chat, PR comments and commented docs, the skill has a vocabulary (which constraints hold? which costs are high?) but **no validated rule**. The conservative default — which this knowledge base recommends *as a default, not as a finding* — is to treat any medium where the reader may not answer as a writing medium, and target the self-sufficient utterance.
 
+**Status as of the writing extension: still open. The default is now shipped, and labelled.** `[13 §1.3]` states it as a `HEURISTIC` and the skill applies it. Two refinements were made while shipping it, neither of them evidence:
+
+- **"Asynchronous" is not one case.** A commit message read from `git log` a year later has no repair channel at all — the author may be gone and the thread may be gone. A PR description serves reviewers who *can* ask and future readers who cannot. A reply inside a live thread may legitimately depend on that thread. Treating all three identically is what produced the instinct to inflate every comment into a standalone report.
+- **"Self-sufficient" was bounded.** It means sufficient for the stated reader and task, with prerequisites named and reachable — not inlining everything. A linked issue the reader can open is a legitimate dependency; a conversation they were not in is not.
+
+Both refinements are chosen service levels. **No source sets the right amount of context**, and the trade-off is real in the other direction too: this default adds context an active collaborator already has.
+
+**(3) What orientation does a reader need when they enter a document part-way through?**
+
+Opened by the writing extension, and not answered by anything in this knowledge base.
+
+Bransford & Johnson establish frame-before-details on **linear** reading of one passage `[04 §1]`. They did not test hyperlink entry, independently reachable sections, repeated headings, or the cost of duplicated context. The section-level rule the skill now ships — *at an independently reachable entry point, name the subject, scope and prerequisites before details that depend on them* — is therefore an `INFERENCE` and is labelled as one in `[13 §3.1]` and `[10 §2d]`.
+
+What is known from the text-structure side does not close it either. Headings help `[13 §3.2]`. Structured overviews beat unstructured ones (Dee-Lucas & Larkin 1995). But signaling **redistributes** recall — more topics reached, less retained per topic (Lorch & Lorch) — so it is not a free addition, and nothing here tells you which trade you are making for a given document.
+
+The precise open question: **what does a reader who skipped the prerequisites actually need at the point of entry, and at what point does repeating context start costing more than it buys?** Dee-Lucas & Larkin (1995) is the right starting point; the experiments that vary *entry location* and *local context* do not exist in this knowledge base. **Expect no universal rule of the form "repeat the frame at every section."**
+
+**(4) Is there any author-side check that predicts real reader failures?**
+
+The skill now performs an artifact inspection — unintroduced terms, dangling referents, late preconditions, undelivered promises — and labels it `HEURISTIC` `[10 §2e]`. That label is honest and it is also unsatisfying: **nothing here tests whether the defects an inspection flags are the defects that actually break readers.**
+
+Schriver's protocol-aided revision is the field's answer to the underlying question, and her own framing keeps it a practice rather than an instrument: "It is important not to confuse protocol-aided revision with an experiment." Schriver (1992), *Written Communication* 9(2):179–208, trained writers using real readers' think-aloud transcripts and is the right next source — **it was not retrievable in this session and no number from it is quoted anywhere in this knowledge base.**
+
+Two sub-questions, both open: which reader tasks reveal which failure types; and whether an LLM's flagged problems correlate with human reader failures at all. **Nothing licenses treating a fresh model context or a "novice persona" as a reader.**
+
+**(5) Does this plugin actually help anyone?**
+
+The most uncomfortable open question, and the one no additional citation can close.
+
+Everything in this knowledge base is evidence about *components*: framing, signaling, two examples, production-based checks, document revision. **There is no evidence about the assembled package.** The honest test would compare documents produced with and without the skill, holding substantive requirements fixed, with actual intended readers and outcomes that matter — task errors, correct decisions, successful lookup, transfer where transfer is the goal.
+
+Model ratings, user preference, and shorter output are **not** substitutes for those outcomes. `§1` already states the governing limit — verification checks a claim against its source, not the source itself. It does not check the combination either.
+
 ### 3.3 Open in the literature itself (not merely unverified here)
 
 These are live scientific disputes flagged inside confirmed claims. The skill must not pretend they are settled in either direction.
@@ -211,3 +244,6 @@ A reader who has absorbed the rest of this knowledge base may be tempted into ea
 10. **"Nielsen proved concise writing is 58% better."** One non-peer-reviewed vendor study, ~10 participants per cell, on a composite non-comprehension score — whose largest effect **reversed** in an independent replication.
 11. **Generalizing an English artifact to another language.** Focal stress, clefts, definite-NP-first, readability formulas, /t/-voicing, `FBICIAUSA`, and "uh huh" are English. The curse of knowledge, chunk-relative capacity, grounding, repair, audience design, frame-before-details, contiguity, and surprisal are not.
 12. **Quoting a rule without its adjacent hedge.** The FPLG offers "advice," not a mandate. ISO 24495-1 says its examples are English-only. Ginns says integration may be inconsequential for simple material. Kintsch refuses the blanket "redundancy is bad" and says overspecification "may be quite harmless, or may even facilitate problem solving." **A rule quoted without its qualifier is a misquote.**
+13. **Treating documents 13 and 14 as adjudicated.** They are `QUOTE-CHECKED` — fetched and read once, no adversarial round, no votes. Given the 38% refutation rate on everything that *was* adjudicated, and given that the typical casualty was a real finding stretched one step, assume that stretch has not been checked for.
+14. **Attributing a bundled result to a single rule.** Kimble's revised documents and Carroll's Minimal Manual each changed several things at once. "56% → 11%" is a fact about a rewrite; it prices no sentence-level rule. This is the same failure mode that made Mayer's box-scores unusable.
+15. **Claiming a document has been verified as clear.** No instrument available to an author, or to a language model rereading its own draft, produces that verdict. State what was inspected, and state that reader comprehension was not tested. Finishing with comprehension untested is a complete outcome, not a gap to paper over.

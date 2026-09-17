@@ -1,7 +1,7 @@
 # Myths, and claims that did not survive verification
 
 > **What this is.** The refuted output of two adversarial verification passes plus three dedicated myth investigations — the claims a communication coach is most tempted to repeat, and precisely how much of each one is left standing after the primary sources were opened and read.
-> **Evidence base.** 17 confirmed claims and 50 refuted claims (71 verification blocks; four claims were adjudicated twice), from the adversarial verification pass. Every claim carries its vote: 3-0 = unanimous, 2-1 = split.
+> **Evidence base.** Parts A and B: 17 confirmed claims and 50 refuted claims (71 verification blocks; four claims were adjudicated twice), from the adversarial verification pass. Every claim carries its vote: 3-0 = unanimous, 2-1 = split. **Part C is a weaker tier** — four writing-mode claims checked against fetched primary sources once, with no adversarial round, and it says so at its own head.
 > **Load this when.** The coaching task involves quoting a famous number (7-38-55, "8-second attention span", "7±2", any Mayer effect size, any NN/g percentage), asserting a mechanically checkable writing rule ("paragraphs under 150 words", "BLUF", "one idea per sentence"), invoking learning styles, claiming a readability score proves clarity, or making any confident claim about what "the research shows" about being understood.
 
 **How to read a refutation here.** A REFUTED verdict almost never means "wholly false". It nearly always means one of four things, and the distinction is the entire point of this document:
@@ -855,6 +855,58 @@ That listeners and speakers both anchor egocentrically and correct **imperfectly
 
 ---
 
+# PART C — WRITING-MODE CLAIMS THAT DO NOT SURVIVE
+
+> **Different evidence tier — read this first.** Parts A and B carry votes from the three-verifier adversarial process. **Part C does not.** Its sources were fetched and quote-checked once (`QUOTE-CHECKED`), and nothing here has been sent to three readers instructed to break it. The refutations below are therefore *weaker objects* than the ones above, and they are recorded because leaving these four claims unmarked would let them into the skill unchallenged — not because they have been killed to the same standard.
+
+## C1. "Making the text harder makes it stick" — the disfluency claim
+
+**What people believe.** A harder-to-read font, or deliberately effortful formatting, is a *desirable difficulty* that improves retention. The usual citation is Diemand-Yauman, Oppenheimer & Vaughan (2011).
+
+**What the evidence actually says.** For the manipulation everyone cites, it has failed to replicate — and the wider literature is inconsistent rather than settled.
+
+- Taylor, Sanson et al. (2020), "Disfluent difficulties are not desirable difficulties: the (lack of) effect of Sans Forgetica on memory", *Memory* 28(7): across four experiments, participants rated the font **harder to read than Arial**, and memory was **equivalent, and sometimes impaired** ([Taylor & Francis](https://www.tandfonline.com/doi/full/10.1080/09658211.2020.1758726)).
+- Wetzler, Pyke & Werner (2021), *SAGE Open*, "Sans Forgetica is Not the 'Font' of Knowledge" ([article](https://journals.sagepub.com/doi/full/10.1177/21582440211056624)).
+- Huff, Maxwell & Mitchell (2022), *Cognitive Research: Principles and Implications*: four experiments, ~300 participants, no effect on correct or false memory in the DRM paradigm ([article](https://link.springer.com/article/10.1186/s41235-022-00448-9)).
+- A meta-analysis (Xie, Zhou & Liu, 2018) reports perceptual disfluency produced **no effect** on later recall relative to undistorted controls — **and that meta-analysis has a published reanalysis against it.** Weissgerber, Brunmair & Rummer identify sign and coding errors and question its recall and moderator results, while finding the transfer results comparatively robust ([reanalysis](https://pmc.ncbi.nlm.nih.gov/articles/PMC7854329/)).
+
+**State it at the right width.** The Sans Forgetica results are clear and consistent — for **one font**. They do not establish that every perceptual-disfluency manipulation fails, and the meta-analysis that would generalize them is itself contested. What survives: **no support for the popular claim, and inconsistent evidence underneath it.** That is enough to refuse difficult formatting as a default; it is not enough to call the question closed.
+
+**Do not substitute a different difficulty.** There is no supported version of "add friction so they engage". If a document is hard, that is a cost.
+
+**Keep the boundary clear.** McNamara et al.'s reverse cohesion effect — high-knowledge readers learning more from a *minimally coherent* text `[13 §3.3]` — is a different claim about *conceptual* gaps for a reader who can fill them, not about *perceptual* difficulty for anyone. Different claims, different literatures — and the McNamara one is itself conditional on reading skill.
+
+## C2. "Text-structure research proves you should structure your document"
+
+**What people believe.** Hebert, Bohaty, Nelson & Brown (2016), *Journal of Educational Psychology* 108(5), a meta-analysis of 45 studies finding that text structure instruction improves expository reading comprehension, is evidence that adding structure to a document improves comprehension.
+
+**What the evidence actually says.** The intervention is **instruction given to readers**, not structure added to text. The meta-analysis teaches students to recognize and use text structures; the text is not the manipulated variable. Its own abstract also hedges the size: "the effects were tempered when text structure instruction was compared to stronger comparison groups" ([preprint PDF](https://files.eric.ed.gov/fulltext/ED648909.pdf)).
+
+**What survives.** Strong evidence that text structure is something readers use, and can be trained to use — which is a reason to make structure *available*. The claim about *supplying* structure belongs to the signaling meta-analysis, `[04 §3]` Schneider et al. 2018, **k = 103, retention g+ = 0.53**, which did manipulate the text and is adjudicated **3-0**. Cite that one.
+
+## C3. "Plain language is proven to work"
+
+**What people believe.** Kimble's collection settles it: plain language demonstrably improves comprehension, so any plain-language rule is evidence-backed.
+
+**What the evidence actually says.** Two separate problems, and neither makes the underlying results untrue.
+
+1. **It is an advocate's collection, not a meta-analysis.** *Writing for Dollars, Writing to Please* opens by naming its purpose — "We who extol plain language need to show, conclusively, that it works" — and there is no pooling, no heterogeneity test, no publication-bias correction, and no reproducible inclusion protocol. Several entries are agency reports and conference handouts held "on file with author".
+2. **Every intervention is a bundle.** The documents were reorganized, rewritten, and frequently redesigned visually, all at once. So the VA letter's **56% → 11%** drop in readers who failed to understand it, and Suchan & Colucci's **17–23%** reading-time saving, are facts about *a rewrite*. **They cannot be attached to any individual sentence-level rule**, and doing so is the same move that made Mayer's box-scores unusable.
+
+**What survives, and it is a lot.** Revising a real document for a real audience has repeatedly and measurably improved comprehension, speed, compliance and preference, across many independent organizations and four U.S. states' judiciaries (1,462 judges and lawyers, 80–86% preference). That establishes that document revision is not decoration. It does not price any rule. Full treatment: `[13 §2.1]`.
+
+## C4. "A better PR description makes reviewers understand the change"
+
+**What people believe.** Bacchelli & Bird (2013) found understanding is the key challenge in code review, so writing a fuller description solves it.
+
+**What the evidence actually says.** The same paper records developers saying the opposite about descriptions specifically: "people can say they are doing one thing, while they are doing many more of them", "the description is not enough" — and it names an independent cause, that "not knowing files (or [dealing with] new ones) is a major reason for not understanding a change" ([ICSE 2013 PDF](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/ICSE202013-codereview.pdf)).
+
+The study is also observational — 17 developers, 16 teams, 570 classified comments, interviews and surveys. **It never tested whether changing a description changed a review outcome.**
+
+**What survives.** The paper reports that "no other code review challenge emerged as clearly as understanding the submitted change", and its interview quotes point at *why*: "the most difficult thing when doing a code review is understanding the reason of the change." A diff may not carry that reason — it can, through a rationale comment, a changed requirement, or a test that exposes it, but it does not by default. So: state the reason when the surrounding context does not already convey it. Do not turn interview data into a ranking of information needs, and do not claim that stating the reason produces understanding.
+
+---
+
 ## What this does NOT license
 
 **Read this section as a blocklist.** Each bullet below opens with a claim you must **not** make, followed by why it fails. Nothing in this section is an endorsement. Every entry is blocked by a refuted block above or by the dossier's binding language caveats.
@@ -896,6 +948,14 @@ That listeners and speakers both anchor egocentrically and correct **imperfectly
 - "The comprehension check must not be multiple-choice." The source found **no significant differences among formats**.
 - "Telling someone they'll teach it later has no lasting benefit." A 28-study meta-analysis found the opposite (delayed g = 0.53 > immediate g = 0.28).
 - "People cannot self-assess comprehension." The illusion of explanatory depth is "**far stronger for explanatory knowledge than many other kinds**"; there was **no drop** for procedures.
+
+**On writing documents (Part C — weaker tier, quote-checked only)**
+- "A harder-to-read font helps retention." Four experiments found memory **equivalent or impaired**; a meta-analysis found no recall effect for perceptual disfluency.
+- "Text-structure research proves you should structure your document." That meta-analysis taught *readers*; it did not manipulate the text. The rule you want is signaling `[04 §3]`.
+- "Plain language is proven to work, therefore this rule is evidence-backed." The results are real and the collection is an advocate's; every intervention is a **bundle**, so no individual rule inherits the number.
+- "A better PR description makes reviewers understand." The source's own interviewees say "the description is not enough". State the reason for the change; claim nothing beyond that.
+- "This document is clear." No instrument available to an author or a language model produces that verdict `[13 §4.2]`.
+- "Preparing a reader test is running one." It is not, and neither a fresh model context nor a simulated novice is a reader.
 
 **On language scope — English-specific artifacts, never to be generalized**
 End-of-sentence focal stress; cleft/pseudocleft/passive information-packaging; definite-NP-first tendencies; **all readability formulas** (the 2025 eye-tracking paper restricts its own finding to English); ISO 24495-1's worked examples (ISO itself says the examples are English-only); Bell's /t/-voicing variable; the FBICIAUSA chunking illustration; English backchannel tokens ("uh huh", "yeah"); Mehrabian's tone manipulation ("variations of pitch and stress which are **linguistically unnecessary**" — a description that is simply false for a tone language); English jargon's Greco-Latinate opacity; the "initial mention = theme" convention of English expository prose (contrast *ki-shō-ten-ketsu*, *qǐ-chéng-zhuǎn-hé*); reading-vs-listening operationalizations that depend on English's deep orthography.

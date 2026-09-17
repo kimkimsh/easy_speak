@@ -1,8 +1,8 @@
 # Never say this
 
-Load this when the user asks a question *about* communication itself — what the research says, whether a claim is real, how people learn, how presenting or explaining works. This is about the **claims**, not about writing tasks: an ordinary "help me write this commit message" does not need this file.
+Load this when the user asks a question *about* communication itself — what the research says, whether a claim is real, how people learn, how presenting or explaining works. This is about the **claims**, not about writing tasks: an ordinary "help me write this commit message" does not need this file. (One exception: if you are about to *justify* a writing choice by citing research, read the writing section near the end first.)
 
-This field is unusually polluted. The most quotable claims in it are the ones that died. Each entry below was killed by adversarial verification against the primary source.
+This field is unusually polluted. The most quotable claims in it are the ones that died. Each entry below was killed by adversarial verification against the primary source — **except the writing section near the end, which is quote-checked only and labels itself as the weaker tier it is.**
 
 **The pattern to internalize:** most of these are not lies. They are **one step of overreach on a real finding**. Flattening them into "true" or "false" loses exactly the thing you needed to know — so each entry says what survives *and* what does not.
 
@@ -116,6 +116,27 @@ The behavioural effects are real. The story everyone tells about *why* is not es
 Also: paraphrasing them as "be clear, be brief, be honest, be relevant" silently deletes the second maxim of Quantity — **do not be *more* informative than required.**
 
 And their universality is contested: primary ethnographic fieldwork (Malagasy) and Wierzbicka's cross-cultural pragmatics both charge the scheme with Anglocentrism.
+
+---
+
+## Writing and documents — a weaker tier, and it says so
+
+Everything above carries a verdict from adversarial verification. **The five entries below do not.** Their sources were fetched and quote-checked once, with no adversarial round, so these refutations are weaker objects than the ones above. They are here because leaving these claims unmarked would let them into a document unchallenged, not because they were killed to the same standard.
+
+**"A harder-to-read font helps people remember."** For the manipulation everyone cites, this failed to replicate. Taylor et al. (2020), *Memory* 28(7): across four experiments readers rated Sans Forgetica harder to read than Arial, and memory was **equivalent, sometimes impaired**. Wetzler, Pyke & Werner (2021) and Huff, Maxwell & Mitchell (2022) found the same.
+**Say it at the right width.** Those results are about **one font**. A meta-analysis reporting no recall effect for perceptual disfluency generally has a **published reanalysis against it** (sign and coding errors; recall and moderator results questioned). So: no support for the popular claim, inconsistent evidence underneath it. Enough to refuse difficult formatting as a default; not enough to call the question closed.
+**Do not substitute a different friction.** And keep this separate from McNamara et al.'s reverse cohesion effect — *conceptual* gaps for a knowledgeable reader, a different claim and a different literature, itself conditional on reading skill.
+
+**"Text-structure research proves you should structure your document."** Hebert, Bohaty, Nelson & Brown (2016), 45 studies, grades 2–12, is a meta-analysis of **instruction given to readers**. The text was not the manipulated variable. Its own abstract hedges the size too: "the effects were tempered when text structure instruction was compared to stronger comparison groups."
+**What survives:** readers use text structure and can be taught to. The claim about *supplying* structure belongs to the signaling meta-analysis — k = 103, retention g+ = 0.53 — which manipulated the text and was adjudicated 3-0.
+
+**"Plain language is proven to work, so this rule is evidence-backed."** Kimble's collection is real and the results are striking — one U.S. Department of Veterans Affairs letter went from 56% of veterans failing to understand it to 11%; 262 naval officers read a plain memo in 17–23% less time with higher accuracy on all seven questions; 1,462 judges and lawyers preferred plain versions by 80–86%. Two problems with using it as a rule's warrant: it is **an advocate's collection**, with no pooling, no bias correction and no reproducible inclusion protocol; and **every intervention is a bundle** — reorganized, rewritten, often redesigned, all at once.
+**What survives:** revising a document for its audience demonstrably helps real readers. **What does not:** any individual sentence-level rule claiming one of those numbers. That is the same move that made Mayer's box-scores unusable.
+
+**"A better PR description makes reviewers understand the change."** Bacchelli & Bird (2013) did find that "code and change understanding is the key aspect of code reviewing", and a senior developer's "the most difficult thing when doing a code review is understanding the reason of the change." The same page records developers saying descriptions often fail — "the description is not enough" — and names unfamiliarity with the files as a major independent cause. The study is observational and never tested whether changing a description changed an outcome.
+**What survives:** the paper reports that "no other code review challenge emerged as clearly as understanding the submitted change", and its quotes point at *why* it was made — which a diff may not carry, since the reason lives outside the code unless someone put it there. State the reason when the surrounding context does not already convey it. Claim nothing beyond that.
+
+**"This document is clear now."** No instrument available to an author, or to a language model rereading its own draft, produces that verdict. Self-explanation's g = 0.55 and teach-back's 19-of-20 measure interventions on learners, not the comprehensibility of a draft. **Never** call a reread, a fresh model context, or a simulated novice persona reader testing; never treat preparing a reader test as running one. Say what was inspected, say that reader comprehension was not tested, and stop.
 
 ---
 

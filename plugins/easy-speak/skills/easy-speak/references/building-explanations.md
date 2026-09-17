@@ -107,6 +107,59 @@ Headings, enumeration, explicit signposting. This is the best-evidenced structur
 
 Report retention and transfer as different sizes. Do not quote one number for both.
 
+**Signaling is not emphasis.** What carries the effect is cues that reveal *organization* — headings, enumeration, "three things; here is the first". Bolding phrases inside prose is a different act and is **untested in this knowledge base**, not disproven. Dunlosky et al.'s LOW rating for highlighting does not settle it either: that rates a *learner's* study technique, not an author's typography, and the review notes memory benefits for material marked by experimenters. Treat advice about emphasis as **HEURISTIC**.
+
+**And signaling redistributes as well as adds.** In Lorch & Lorch's signaling experiments, subjects "remembered more topics but recalled less about each accessed topic" when the text carried signals. For a reference document that is the right trade. For a document with one idea that has to land deeply, it is not obviously right, and nothing here tells you which case you are in.
+
+## 7. When it is a document
+
+Everything above still holds. Four things change, because the reader is not there and did not necessarily start at the top.
+
+### 7.1 Scale to the document's job, not to the loop
+
+A commit message does not teach a concept. A spec communicates exact obligations. A reference page is used with the page open. **None of them needs an analogy and two examples**, and manufacturing one is this skill's most familiar failure mode wearing different clothes.
+
+### 7.2 "Before" means before the reader meets the details — INFERENCE
+
+A reader who arrived from a search result never saw your introduction. So at any point where someone can plausibly enter directly, name the subject, the scope that applies, and the prerequisites, before the details that depend on them.
+
+A heading often already does it:
+
+| Fails on direct entry | Works |
+|---|---|
+| **Recovery** — "Run this after the previous step." | **Recover a replica after a failed upgrade** — "Assumes the upgrade aborted and the replica is in `degraded`." |
+
+**Label it.** Bransford & Johnson tested linear reading of a single passage. They did not test hyperlink entry, independently reachable sections, repeated headings, or the cost of duplicated context. Section-level framing is an inference from their finding, not their finding.
+
+**And it is not "repeat the introduction under every heading."** Some subsections genuinely depend on their parent and can say so. Repetition costs reading time and maintenance, and nothing here measures a benefit that pays for it.
+
+### 7.3 Prefer a heading, and show the shape
+
+- **A heading beats a preview sentence** at drawing attention to topic structure. In Lorch et al.'s comparison, memory for subtopics was better with headings; on memory for facts, and in a task that already forced attention to structure, the two did not reliably differ — and previews "do not elicit readers' attention to topic information as readily as headings do." So do not ask a lead sentence to do a heading's job.
+- **A structured overview beats a menu.** Dee-Lucas & Larkin found both overview types beat continuous text on memory for topics and breadth of recall, and the **structured** one (a hierarchical map) was easier to recall and use; the unstructured, menu-like listing produced a more fragmented knowledge structure when readers had no specific goal.
+- **Links are a cost charged to the reader.** Learning tends to be better with fewer links per page, and the added decision-making and visual processing impaired reading performance. A cross-reference is not a way of avoiding writing a sentence.
+- **Per-section framing makes the document longer, and that can still be worth it.** Hartley's review of ~31 structured-abstract studies found them more informative, more readable, judged clearer, and faster to search — and significantly longer. That is the closest thing here to a licence for the cost, and it is a different genre.
+
+### 7.4 If the document's purpose is *doing*, organize by the task — and write the failure path
+
+Carroll et al.'s Minimal Manual is the one task-outcome experiment in this knowledge base. Its four design principles, in the paper's own words: **focus on real tasks and activities; slash the verbiage; support error recognition and recovery; guided exploration.**
+
+| Measure (Experiment 1) | Result |
+|---|---|
+| Learning time | **40% less**, *t*(17) = 3.06, *p* < .01 |
+| Performance subtasks completed | **2.7×**, *t*(16) = 3.63, *p* < .01 |
+| Basic tasks only | **+50%**, *t*(16) = 2.11, *p* = .05 |
+
+**Carry the limits.** n ≈ 19 in Experiment 1; 1987, word processors, paper manuals; and in Experiment 2 the getting-started differences were significant only for time to start the system up. Most importantly, **four principles were varied together** — brevity cannot take the credit alone, and the paper puts error recovery and attention coordination beside it, not beneath it. Replicated with 64 Dutch students by Lazonder & van der Meij (1993).
+
+The half that gets dropped is **error recognition and recovery**. A guide with only the happy path is a guide that abandons the reader exactly when they need it.
+
+### 7.5 Do not make it harder on purpose
+
+The "desirable difficulty" argument for disfluent formatting failed to replicate: across four experiments readers rated the font harder and memory came out **equivalent or worse**, and a meta-analysis found perceptual disfluency produced no recall effect. If a document is hard, that is a cost, not a feature.
+
+(This does not contradict the reverse-cohesion finding in `audience-calibration.md`. McNamara's effect is about *conceptual* gaps a knowledgeable reader can fill — a different claim and a different literature, and itself conditional on reading skill. And state the disfluency result at its real width: the failed replications are about **one font**, and the meta-analysis that would generalize them has a published reanalysis against it. No support for the popular claim; inconsistent evidence underneath.)
+
 ## What this does NOT license
 
 1. **"One good example plus a clear statement of the principle is enough."** That is the exact intervention that failed, three ways.
@@ -117,3 +170,10 @@ Report retention and transfer as different sizes. Do not quote one number for bo
 6. **"Seductive details are catastrophic."** Small-to-medium, contested, language-moderated. Cut the tangent anyway; the *workaround-failure* is what makes it actionable.
 7. **"Working memory holds ~4 things, so give at most 4."** Capacity is over knowledge-relative chunks. Reduce the chunk count *for this audience*; never enforce a magic number.
 8. **A readability score as evidence the jargon is gone.** Never a target metric.
+9. **"Bransford & Johnson show you should repeat the frame in every section."** They tested linear reading of one passage. Section-level framing is an inference, and "repeat the introduction everywhere" is not even that — it has costs and no measured benefit.
+10. **"A late frame is worse than no frame."** Numerically lower (2.12 vs 2.29 comprehension, 2.65 vs 2.82 recall), and that contrast was never tested. Say **"a late frame bought nothing."**
+11. **"Signaling means emphasis."** It means cues that reveal organization. Highlighting is rated LOW utility next to rereading.
+12. **"Headings always increase recall."** They change its distribution — more topics reached, less retained per topic.
+13. **"The Minimal Manual proves shorter is better."** Four principles varied together, n ≈ 19, 1987, and most Experiment 2 differences were not significant. Error recognition and recovery is one of the four, and it is the one people drop.
+14. **"Text-structure research proves you should structure your document."** Hebert et al. (2016) taught *readers* to use structure; the text was not the manipulation, and the effect shrank against stronger comparison groups. The rule you want is signaling.
+15. **"Make it a bit harder so they engage."** Perceptual disfluency did not replicate — memory equivalent or worse across four experiments, and no recall effect in meta-analysis.

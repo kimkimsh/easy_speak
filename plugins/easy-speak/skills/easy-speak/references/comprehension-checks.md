@@ -86,6 +86,78 @@ But universality of the *mechanism* is not uniformity of *willingness*. Face and
 
 > The more deferential the listener's position, the **less** their silence means — and the more you need an active check. Never read "no questions" as "understood."
 
+---
+
+# When there is no receiver at all
+
+For a document, the check above is unavailable. There is no one to produce anything. **The replacement is not a weaker version of the same check** — it is a different act, plus an explicit statement of where verification stopped.
+
+## First, the two things that are not evidence
+
+**Your own reread is not evidence a reader will understand.** That is the curse of knowledge and it does not respond to effort. **An LLM rereading its own draft is not a naive audience either** — it has read the internet, and it wrote the draft.
+
+**And the numbers above do not transfer.** Self-explanation's **g = 0.55 [0.45, 0.65], k = 69, N = 5,917** is the effect of an intervention *on a learner's learning*. Teach-back's **19 of 20 studies** spans heterogeneous outcomes including adherence and readmissions. Neither measures whether a given text is comprehensible. Quoting them as a licence for a clarity verdict is the exact overreach pattern this knowledge base exists to catch — see `never-say-this.md`.
+
+## Second, inspect the text — and call it what it is
+
+A reread is useless for "will they understand" and genuinely useful for defects that are **properties of the text**, checkable against a named reader and task:
+
+| Defect | What to look for |
+|---|---|
+| Unintroduced term | A load-bearing term used before it is introduced, judged against the named reader — not against a word list |
+| Dangling referent | "this", "the above", "it" with no antecedent inside the section a reader could have entered at |
+| Unreachable precondition | A step whose prerequisite is **not identified and reachable before the step that depends on it**. Location is not the test: a prerequisite named up front with a link is fine; one that only appears afterwards, or is never named, is not |
+| Undelivered promise | The opening says the document covers X; the body never does |
+| Conversation-only context | A term, decision or constraint that exists only in the thread the reader was not in |
+| Load-bearing jump | The reader cannot complete the document's own task without leaving it. **A named, reachable prerequisite is fine** — "you need an admin token; see Access" is a dependency the reader can satisfy. What this flags is a jump standing in for a sentence you did not write, and a chain of them: learning tends to be better with fewer links |
+| Self-contradiction | Two statements in the same document that cannot both be true |
+
+**HEURISTIC.** This is a list of defect types, not a validated instrument. No study in this knowledge base scores it, and **finding none of them is not evidence of anything.**
+
+## Third, report corrections and name the edge
+
+Say what changed, observably:
+
+> "Added the required permission before the deployment steps; defined `tenant scope` at first use; removed the forward reference to §6."
+
+Not: *"this should be much clearer now."*
+
+And when you claim verification, say where it stopped:
+
+> "Checked prerequisites, terminology and references. Reader comprehension has not been tested."
+
+## Fourth, for consequential material, prepare the real check
+
+The real check is a reader protocol, and **the author runs it, not you.** Schriver's protocol-aided revision is the field's own answer: "actual reader feedback is the most sensible and effective criterion for deciding whether a text is written in plain language," and the method is "helping writers see problems in text that they might otherwise miss."
+
+Her stated practice: **five participants per cycle**, two or three cycles, with *"a rough rule of thumb"* that the first pass finds about half of the reader's problems and the second half of the remainder. Those are her labels — a rule of thumb and a reported practice, and she is explicit that "it is important not to confuse protocol-aided revision with an experiment."
+
+What you can hand over is a test someone could actually run:
+
+| Field | Example |
+|---|---|
+| Reader | Someone who has used the CLI but never touched the replica commands |
+| Task | Recover a replica after a failed upgrade, using only this page |
+| Materials | This page, a terminal, no one to ask |
+| Success looks like | They reach a healthy replica without opening another document, and can say why the `--force` step is safe here |
+
+Keep the success criteria **separate from the prompt** you give the reader. And match the test to the document — **HEURISTIC**, a working scheme rather than a validated mapping: a guide is tested by someone doing the task in a new situation; a design document by someone explaining why an alternative was rejected and when that reasoning would stop holding; a reference page is tested with the page open, because memorizing it was never the point.
+
+## The four refusals
+
+1. **A reread, a fresh model context, or a "novice persona" is not reader testing.** Stating it as one is a fabricated result.
+2. **A command that ran is not an explanation that landed.** Execution success says nothing about the prose around it.
+3. **The requester's approval is not the audience's**, unless that relationship was actually established. Usually it has not been.
+4. **Preparing a reader test is not running one.** An exercise embedded in a document may help a reader learn; its presence is no evidence that anyone completed it.
+
+## And the outcome that is allowed
+
+**Finishing a document with reader comprehension untested is complete and normal.** Do not block delivery on a reader who is not available. Do not manufacture a substitute. Say what was inspected, say what was not, and stop.
+
+Do not attach a verification notice or a test package to every artifact. The calibration table above still governs: a three-line commit message gets none of this.
+
+---
+
 ## What this does NOT license
 
 1. **"Teach-back has an effect size of d = ..."** — Fabrication if attributed to the 20-study review, which states it could not conduct a meta-analysis. It is a narrative synthesis.
@@ -96,3 +168,6 @@ But universality of the *mechanism* is not uniformity of *willingness*. Face and
 6. **"Open-ended checks beat closed-ended checks."** The closed Yes/No scored numerically *higher* than the open directive tell-back. The lever is collaborative framing.
 7. **English backchannel tokens** ("uh huh", "yeah") as a universal diagnostic. They are English-specific.
 8. **The tell-back wording as culturally portable.** The practice is evidenced across the USA, Iran, Australia, China and India — but **zero** studies adapted or tailored the wording, and "explain it back to me" is a face-threatening request whose acceptability varies. Treat the *practice* as portable and the *phrasing* as untested.
+9. **"The document has been checked for clarity."** Nothing available to an author or a language model produces that verdict. Name what was inspected and name what was not.
+10. **The defect list as a score.** It is a prompt for a human decision. Zero hits means zero hits of those seven types, not a clear document.
+11. **Schriver's "half the problems per pass" as a measurement.** She calls it a rough rule of thumb and says the method is not an experiment. The five-readers figure is reported practice at one center, not an optimum.

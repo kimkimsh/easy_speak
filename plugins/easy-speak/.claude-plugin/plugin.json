@@ -1,7 +1,7 @@
 {
   "name": "easy-speak",
-  "version": "1.1.0",
-  "description": "Makes Claude explain things so you actually understand them, in any language. Fixes the audience first, frames before detailing, and verifies understanding instead of assuming it.",
+  "version": "1.2.0",
+  "description": "Makes Claude explain things — and write documents — so people actually understand them, in any language. Fixes the audience first, frames before detailing, and refuses to claim clarity no instrument can measure.",
   "author": {
     "name": "kimkimsh",
     "url": "https://github.com/kimkimsh"
@@ -15,6 +15,8 @@
     "clarity",
     "plain-language",
     "teaching",
-    "comprehension"
+    "comprehension",
+    "documentation",
+    "technical-writing"
   ]
 }
