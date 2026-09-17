@@ -168,6 +168,45 @@ Run this **twice** — once with the session off, once with it on — and observ
 
 Record real runs here. An unrun case is not a check.
 
-| Date | Version | Cases run | Result |
-|---|---|---|---|
-| 2026-09-17 | 1.2.0 | none | **Not run.** The cases were written and reviewed against the instruction text, which is not the same thing and cannot substitute — see `background/13-writing-documents.md` §4.2 on why an author checking their own artifact is the wrong instrument. Treat every case as unvalidated until a row below records a live session. |
+### 2026-09-17 — v1.2.0, first run
+
+**Method.** Each case was given to a separate agent with no knowledge of this file, no knowledge of what was being tested, and no access to this repository's `docs/`. Each was handed the v1.2.0 `SKILL.md` (and `commands/easy-speak.md` where the case needed it) from an isolated copy, plus the case fixture, and asked for the reply it would send. Confirmed afterwards from the transcripts: **zero** agents read `acceptance-cases.md`, and **zero** ran `git log` — the repo paths and commit subjects visible in their transcripts come from the inherited environment block, not from the agent opening anything.
+
+| Case | Result | Note |
+|---|---|---|
+| 1. Inactive, routine doc request | **PASS (proxy)** | Tested against the `description:` frontmatter alone, not the live skill matcher. 10 prompts; README / release notes / "document this function" / commit message / PR description all NOT-LOAD. |
+| 2. Inactive, comprehension complaint | **PASS (activation half)** | LOAD, correctly. The revision half was not run — it needs a real README fixture in a live session. |
+| 3. Leaving the mode | **NOT RUN** | Needs a real session; a single-turn agent cannot exhibit session state persisting across turns. |
+| 4. One-shot with an argument | **PASS (off-state half)** | Wrote the guide; did **not** explain what a contributing guide is. Reported `SESSION-STATE: OFF`. The on-state half was not run. |
+| 5. Mixed output | **PASS** | Both deliverables. Every FIX-CHAT fact appeared in the document itself; no "as discussed"; numbers unchanged. Unprompted, it also prepared a reader test with the answer key kept separate. |
+| 6. Short archival artifact | **PASS** | What + why, and the why was the second auth provider, which is not in the diff. No verification footer. |
+| 7. Active session, README | **PASS** | Named the on-call reader as distinct from the requesting staff engineer. Directly-reachable sections oriented first. No clarity verdict. |
+| 8. Requester *is* the reader | **PASS** | Used the stated level. Did not explain HTTP, did not invent a novice, did not re-ask who the reader was. |
+| 9. Allowed dependency | **PASS** | Named the prerequisite before the step needing it, linked it, did not inline it, did not flag the link as a defect. |
+| 10. Live thread reply | **PASS** | Narrow, thread-dependent, not inflated into a standalone report. |
+| 11. Consequential runbook | **PASS** | Reader test specified with all four fields and the success criteria explicitly withheld from the reader. Stated what was inspected and that comprehension was not tested. |
+| 12. Non-English artifact | **PASS** | Korean throughout, English kept for the terms Korean developers use in English. No English-only metric named as a target. Unresolved decisions kept unresolved, with what would flip each. |
+| 13. Research question as a document | **PASS** | `never-say-this.md` loaded. Myths named only to refute them. See below. |
+
+**The result that carries the most weight is case 13.** Five wordings that were corrected during the v1.2.0 review reached the output intact, in a context that never mentioned them:
+
+- "topic-after was never tested against no-topic, so all that is established is that no advantage was observed for the late frame here" — not "worse than no frame"
+- "prior knowledge was **not identified** as a moderator" — not "does not backfire on experts"
+- "pooled effects across heterogeneous interventions, not a measurement of what padding one particular deck does"
+- "measured preference and perceived effectiveness only. Comprehension was never measured."
+- "scattered bold and colour are a different thing and are **untested, not disproven**" — Dunlosky not misused
+
+That is the label discipline transferring to output, which is the one thing these cases can actually show.
+
+### What this run does not establish
+
+- **No comprehension outcome.** Nobody read any of these documents. See `background/13-writing-documents.md` §4.2.
+- **Activation was tested by proxy.** Cases 1 and 2 were judged by asking a fresh agent whether it would load the skill given the `description:` text. That is not Claude Code's real skill matcher, and a live session with v1.2.0 installed is still the only way to test it properly.
+- **The judges were not naive.** Each agent inherited this session's environment, including a `CLAUDE.md` whose §0 already asks for conclusion-first answers and plain-language glosses. Some passing behaviour may come from there rather than from the skill. Separating the two would need a session without that file.
+- **Case 3 and two state-halves were never run at all.**
+
+### Findings
+
+1. **Reference filenames leaked into user-facing output.** In case 11 the reply opened by naming which reference files it had read. `commands/easy-speak.md` forbade narrating the answer/artifact classification but said nothing about naming loaded files. Fixed in the same change as this log.
+2. **Artifacts came back with blanks in them** — `[[FILL IN]]`, `[Fill: ...]`, `(제안)` — in cases 5, 7, 11 and 12, wherever the agent lacked a fact. This is correct under the repo's own rules (inventing a schedule or an escalation path would be worse) and every one of them was a fact the prompt genuinely did not supply. It is still a visible behaviour change: easy-speak makes Claude hand back an unfinished document rather than a plausible one. Recorded, not treated as a defect.
+3. **No case produced a clarity verdict**, in any language, including the four where a verification boundary was stated unprompted.

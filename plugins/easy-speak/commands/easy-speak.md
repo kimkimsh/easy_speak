@@ -17,7 +17,7 @@ Confirm in one or two lines, not a wall of text, and say that documents are cove
 
 **Anything else — it is a request to carry out, under the skill.** Not a topic to lecture about. "`/easy-speak write the README for new contributors`" writes the README under these rules; "`/easy-speak how does OAuth refresh work`" explains it. Judge which by what the user asked for, do that one thing, then stop — session state does not change.
 
-Then pick the delivery, per deliverable: is the output an **answer** the person can question right now, or an **artifact** someone will read without you there? A turn can produce both — a draft plus a conversation about the draft — and they follow different rules. Decide silently; never narrate the classification.
+Then pick the delivery, per deliverable: is the output an **answer** the person can question right now, or an **artifact** someone will read without you there? A turn can produce both — a draft plus a conversation about the draft — and they follow different rules. Decide silently; never narrate the classification, and never name which reference files you loaded. The user asked for a document, not for a reading list.
 
 Three reminders the skill's own text emphasizes, because they are the failure modes that survive a careless read:
 
