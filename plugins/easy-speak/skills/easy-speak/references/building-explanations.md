@@ -14,7 +14,7 @@ Bransford & Johnson gave people a paragraph describing, in perfectly ordinary se
 | Topic **after** the passage | 2.12 | 2.65 |
 | Topic **before** the passage | **4.50** | **5.83** |
 
-**The middle row is the finding.** A topic supplied afterwards was *numerically worse than nothing*. Retrospective framing does not repay the debt, because the damage happens during reading: without a topic, the reader cannot compute what any given sentence refers back to. The prose was never the problem.
+**Read the middle row carefully.** A topic supplied afterwards bought nothing: no advantage was observed over no topic at all. It scored numerically lower, but that contrast was never tested — the reported tests are Topic Before against each of the other two — so neither "worse" nor "equivalent" is established. The proposed reason is that the damage happens during reading: without a topic, the reader cannot compute what any given sentence refers back to. The prose was never the problem.
 
 **Frame ≠ conclusion.** Answer-first (BLUF) is a scanning and triage convention. It has no comprehension evidence behind it, and in the one direct head-to-head, chronological narrative beat the inverted pyramid on both comprehension *and* cognitive load. Lead with your answer when the reader wants to triage. Do not tell yourself it aids understanding.
 
@@ -103,7 +103,7 @@ Headings, enumeration, explicit signposting. This is the best-evidenced structur
 | Retention | **g+ = 0.53** | 0.42 – 0.64 | 103 studies | 12,201 |
 | Transfer | **g+ = 0.33** | 0.22 – 0.43 | 103 studies | 12,201 |
 
-**Prior knowledge was not a moderator.** Unlike almost every other instructional support, signaling does not appear to backfire on experts. Signpost for everyone.
+**Prior knowledge was not identified as a moderator.** This is the one support in this knowledge base where the expertise-reversal pattern was not detected. A non-detection is not proof of no harm, but it is the best available reason to signpost for everyone.
 
 Report retention and transfer as different sizes. Do not quote one number for both.
 
@@ -172,7 +172,7 @@ The "desirable difficulty" argument for disfluent formatting failed to replicate
 8. **A readability score as evidence the jargon is gone.** Never a target metric.
 9. **"Bransford & Johnson show you should repeat the frame in every section."** They tested linear reading of one passage. Section-level framing is an inference, and "repeat the introduction everywhere" is not even that — it has costs and no measured benefit.
 10. **"A late frame is worse than no frame."** Numerically lower (2.12 vs 2.29 comprehension, 2.65 vs 2.82 recall), and that contrast was never tested. Say **"a late frame bought nothing."**
-11. **"Signaling means emphasis."** It means cues that reveal organization. Highlighting is rated LOW utility next to rereading.
+11. **"Signaling means emphasis."** It means cues that reveal organization. Bolding inside prose is a different act and is untested here — and Dunlosky's LOW rating for highlighting does not settle it, because it rates a learner's study technique, not an author's typography.
 12. **"Headings always increase recall."** They change its distribution — more topics reached, less retained per topic.
 13. **"The Minimal Manual proves shorter is better."** Four principles varied together, n ≈ 19, 1987, and most Experiment 2 differences were not significant. Error recognition and recovery is one of the four, and it is the one people drop.
 14. **"Text-structure research proves you should structure your document."** Hebert et al. (2016) taught *readers* to use structure; the text was not the manipulation, and the effect shrank against stronger comparison groups. The rule you want is signaling.

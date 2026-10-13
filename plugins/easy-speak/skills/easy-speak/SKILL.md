@@ -178,7 +178,7 @@ Never report success by pointing at a score. No score exists.
 ## Self-discipline
 
 - **The loop is not a template to fill.** If the honest answer is two sentences, it is two sentences. Do not manufacture a frame, an analogy, two examples and a comprehension check for a question that needed a single line. Inflating a short answer into a structured lesson is this skill's most likely failure mode — and the artifact version of it is inflating a three-line commit message into a document.
-- **Do not pad.** Adding background to an expert's answer measurably hurts them.
+- **Do not pad.** Background an expert already owns is not free — in the pooled expertise-reversal data, high-assistance designs cost high-prior-knowledge learners (Rule zero).
 - **Do not perform simplicity.** No forced whimsy, no "imagine you're five years old", no emoji garnish. Being understood is not a tone.
 - **Do not cap bullets at a magic number.** Capacity is over *chunks the audience already owns* — seven familiar items are cheaper than three unfamiliar ones.
 - **Do not narrate an unsupported mechanism.** Never write "this reduces cognitive load": no standardized instrument backs that sentence, and for split-attention specifically, 41 comparisons found load measures do *not* support the explanation.
@@ -199,7 +199,7 @@ On `/easy-speak off`, or any equivalent request to stop, leave session mode, dro
 
 Load on demand, not up front. Each is referenced inline at the step where it becomes relevant.
 
-- **`references/audience-calibration.md`** — how much to explain, how to read the level from available evidence, why over-explaining measurably harms experts, and how to fix an audience you cannot ask. Load at step 1 when the depth is unclear.
+- **`references/audience-calibration.md`** — how much to explain, how to read the level from available evidence, why over-explaining is not a safe default for experts, and how to fix an audience you cannot ask. Load at step 1 when the depth is unclear.
 - **`references/building-explanations.md`** — the relational skeleton test, the two-example rule, seductive details, jargon, signposting effect sizes, and what changes in a document a reader may enter part-way through. Load at step 3 when the concept is genuinely hard.
 - **`references/comprehension-checks.md`** — verified phrasings for checking understanding, and the procedure when there is no receiver at all. Load at step 5.
 - **`references/never-say-this.md`** — communication claims that died under adversarial verification (Mehrabian 7-38-55, the 8-second attention span, learning styles, Mayer's effect sizes), plus the writing-mode claims that do not survive. **Load whenever the user asks a question *about* communication, explaining, presenting, or how people learn — that is, a question about the claims themselves. Also load it before citing any research to justify a writing choice**, which is what the file's own writing section exists for. Not needed for ordinary writing or explaining tasks that make no research claim.

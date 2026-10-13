@@ -21,7 +21,7 @@ References are loaded on demand, not up front.
 
 ## The loop
 
-1. **Fix the audience** — there is no audience-independent simple version of anything, and over-explaining measurably degrades an expert's performance (d = −0.428).
+1. **Fix the audience** — there is no audience-independent simple version of anything, and over-explaining is not a safe default: pooled across high-assistance designs, the effect for high-prior-knowledge learners is negative (d = −0.428).
 2. **Frame before detail** — one sentence naming the topic, *first*. A frame delivered late bought nothing.
 3. **Build the explanation** — analogies must map relations, not looks. Two examples, not one.
 4. **Make structure visible** — signposting is the one support where the expertise-reversal pattern was not detected. Signpost for everyone.

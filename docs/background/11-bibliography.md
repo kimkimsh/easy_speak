@@ -504,7 +504,7 @@ https://www.uv.es/lasalgon/papers/Delgado%202018%20dont%20throw%20away%20your%20
 
 **W-05 — McNamara, D.S., Kintsch, E., Songer, N.B. & Kintsch, W. (1996), "Are Good Texts Always Better? …," *Cognition and Instruction* 14(1):1–43.**
 https://www.jstor.org/stable/3233687
-*Good for:* the reverse cohesion effect — low-knowledge readers benefited from a coherent text, **high-knowledge readers benefited from a minimally coherent one**, because the gaps forced inference. The text-side sibling of expertise reversal.
+*Good for:* the reverse cohesion effect — low-knowledge readers benefited from a coherent text, **high-knowledge readers benefited from a minimally coherent one**, on deep-understanding measures. The authors attribute this to the gaps forcing inference — their account, not a separately established mechanism. The text-side sibling of expertise reversal.
 *Do not cite for:* "write incoherently for experts." Junior-high sample, "high knowledge" relative within it, one text, and an **interaction** rather than a main effect.
 
 **W-06 — Sanchez, R.P., Lorch, E.P. & Lorch, R.F. (2001), "Effects of Headings on Text Processing Strategies," *Contemporary Educational Psychology* 26(3):418–428.**

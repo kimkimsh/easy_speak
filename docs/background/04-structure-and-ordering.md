@@ -78,7 +78,7 @@ The verification pass tried to kill this and failed: even the strongest critics 
 
 > "The retention (g+ = 0.53, 95% CI [0.42, 0.64]) and transfer (g+ = 0.33, 95% CI [0.22, 0.43]) sizes support the positive effect of signaling on motivation/affect, learning time, and learning-relevant fixations. Cognitive load was significantly reduced. In contrast to the expertise reversal effect hypothesis, prior knowledge was not identified as a moderator of the signaling effect."
 
-**Read this precisely.** Signaling = cues that *highlight the organization of relevant information*. It is satisfied by headings, a stated topic, and explicit signposting. **It does not require putting the conclusion in sentence one.** The fact that prior knowledge was not a moderator is useful: unlike most instructional supports, signposting does not appear to backfire on experts.
+**Read this precisely.** Signaling = cues that *highlight the organization of relevant information*. It is satisfied by headings, a stated topic, and explicit signposting. **It does not require putting the conclusion in sentence one.** The fact that prior knowledge was not identified as a moderator is useful: this is the one support here where the expertise-reversal pattern was not detected. A non-detection is not proof of no harm, but it is the best available reason to signpost for everyone.
 
 ---
 

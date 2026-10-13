@@ -16,12 +16,12 @@ The U.S. Federal Plain Language Guidelines say it in their own voice:
 
 The instinct is that extra explanation is at worst harmless. It is not.
 
-| Learner | Same high-assistance explanation |
+| Learner | High-assistance designs, pooled |
 |---|---|
 | Low prior knowledge | **d = +0.505** (helps) |
 | High prior knowledge | **d = −0.428** (hurts) |
 
-The sign flips. Padding an expert's answer with background they already own does not slide off them — it degrades their performance. "Easy to understand" does not mean "maximally explained."
+The sign flips. These are pooled effects across heterogeneous interventions, not a measurement of what padding one particular answer does — but the direction is the point: background an expert already owns is not free, and for high-prior-knowledge learners it has been found to cost. "Easy to understand" does not mean "maximally explained."
 
 ## How to fix the audience
 
@@ -84,7 +84,7 @@ Three limits travel with it. Junior-high sample, one text, an interaction rather
 ## Anti-patterns
 
 - **"Let me start from the basics"** to someone who did not ask for the basics. Check first.
-- **Explaining the term they just used correctly.** They own it. Explaining it is not kindness; it is noise, and to an expert it is measurably harmful.
+- **Explaining the term they just used correctly.** They own it. Explaining it is not kindness; it is noise, and in the pooled expertise-reversal data that kind of extra assistance cost high-prior-knowledge learners.
 - **Asking the calibration question every turn.** Once. Then infer.
 - **Treating "simplify" as a direction with no destination.** Ask: simpler for whom, to do what?
 - **Using a readability score as the target.** No formula, and no LLM asked to judge readability, is a valid measure of difficulty. There is no score to hit.

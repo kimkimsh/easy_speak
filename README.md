@@ -42,9 +42,9 @@ Three findings shaped the whole design.
 
 Cost is paid in *chunks in the receiver's memory*, not in words on the page. The same sentence is one unit to an expert and twelve to a novice.
 
-Which means "simplify" is not a direction you can move in until you know who is listening. Worse, over-explaining is not a safe default — the **expertise reversal effect** flips the identical explanation from **d = +0.505** (helps a novice) to **d = −0.428** (measurably *hurts* an expert). Padding an expert's answer makes them perform worse.
+Which means "simplify" is not a direction you can move in until you know who is listening. Worse, over-explaining is not a safe default — pooled across high-assistance instructional designs, the **expertise reversal effect** goes from **d = +0.505** for novices to **d = −0.428** for experts. The sign flips. Those are averages over many different interventions, not a measurement of what padding one particular answer does — but extra scaffolding is not free, and for someone who already owns the material it has been found to cost.
 
-The same reversal shows up in text. McNamara and colleagues varied a science text's coherence and found low-knowledge readers did better on the coherent version while **high-knowledge readers did better on the sparser one** — the gaps forced the inference that produced understanding. So "add more connective tissue" is not safe for a document either.
+The same reversal shows up in text. McNamara and colleagues varied a science text's coherence and found low-knowledge readers did better on the coherent version while **high-knowledge readers did better on the sparser one**, on the deeper measures of understanding. The authors propose that the gaps forced the inference that produced the depth — their account, not a separately established mechanism — and a later study found reading skill reverses the effect. Even so, "add more connective tissue" is not safe for a document either.
 
 So easy-speak's first move is not "write simply." It is **fix the audience** — ask once, or infer and say the assumption out loud so you can correct it in one word.
 

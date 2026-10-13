@@ -29,7 +29,7 @@ Working-memory capacity applies to *chunks grounded in prior knowledge*, not to 
 Two consequences the skill must actually enforce:
 
 - **There is no audience-independent "plain" version of anything.** "The first rule of plain language is: write for your audience... **Only write for 8th graders if your audience is, in fact, an 8th grade class**" `[07 §1.1–1.2] FPLG, 3-0`.
-- **"Always simplify" is not safe.** The expertise reversal effect turns the same high-assistance design from **d = +0.505** for low-prior-knowledge learners to **d = −0.428** for high-prior-knowledge learners `[01 §4]`. Over-explaining to an expert measurably degrades their performance. "Simplify for whom" is the only well-formed question.
+- **"Always simplify" is not safe.** Pooled across high-assistance designs, the expertise reversal effect goes from **d = +0.505** for low-prior-knowledge learners to **d = −0.428** for high-prior-knowledge learners `[01 §4]`. Those are averages over heterogeneous interventions, not a measurement of any one explanation — but over-explaining to an expert is not free. "Simplify for whom" is the only well-formed question.
 
 **Why second.** It is the mechanism that makes every other rule audience-conditional, and it is the rule that kills the magic numbers ("4 bullets", "grade 8", "7±2"). A skill that gets this wrong ships confident, wrong advice everywhere else.
 
@@ -55,7 +55,7 @@ Note the middle row. **A topic delivered late is not better than no topic at all
 
 Headings, an outline, enumeration, explicit signposting ("three things; here is the first"). Signaling — cues that highlight the *organization* of the material — is the best-evidenced structural lever available: **retention g+ = 0.53 [0.42, 0.64], transfer g+ = 0.33 [0.22, 0.43], k = 103 studies, N = 12,201** `[04 §3]`, `[06 §4] Schneider et al. 2018, 3-0`.
 
-**Why fourth, and why it earns the slot.** Two things make it unusual. First, the scale — 103 studies, 46 years, 145 pairwise comparisons. Second: **prior knowledge was NOT a moderator**, contrary to the expertise-reversal prediction. This is the one instructional support in the knowledge base that does not appear to backfire on experts. Signpost for everyone.
+**Why fourth, and why it earns the slot.** Two things make it unusual. First, the scale — 103 studies, 46 years, 145 pairwise comparisons. Second: **prior knowledge was NOT a moderator**, contrary to the expertise-reversal prediction. This is the one instructional support in the knowledge base where the expertise-reversal pattern was not detected — a non-detection, not proof of no harm, but the best available reason to signpost for everyone.
 
 Report retention and transfer as different sizes; do not quote one number for both. Do not extrapolate the no-moderator result to other supports — expertise reversal is real elsewhere `[06 §4]`.
 
@@ -223,7 +223,7 @@ These are useful for *surfacing* things a human should look at. **None has a stu
 | Scanning-oriented formatting (bullets, subheads, keywords) | **HEURISTIC.** Scanning is a real and common online reading mode, but the famous numbers behind it (58/47/27/124%) are ~10 participants per cell, one fictitious site, never peer-reviewed, never replicated, and the largest effect **reversed** in an independent test `[07 §4]`. |
 | Rating text on "directness", "warmth", "harmony", "solidarity", "informality" | **PROHIBITED, not merely heuristic.** These are unanalysed English labels that have produced "paradoxical and contradictory conclusions"; scoring on them is scoring against Anglo concepts while claiming universality `[03 §7b] Wierzbicka 1991, 3-0`. |
 | The self-sufficiency defect list for a document — unintroduced term, dangling referent, late precondition, undelivered promise, load-bearing jump | **HEURISTIC.** A prompt for a human decision. No study in this knowledge base scores these, and finding none of them is not evidence the document is clear `[13 §4.2]`. |
-| **Bolding, highlighting, or emphasis as a comprehension device** | **PROHIBITED as a substitute for signaling.** Signaling means cues that reveal *organization* — headings, enumeration, "three things; here is the first" `[04 §3]`. Highlighting is rated **LOW utility** by Dunlosky et al. 2013, alongside rereading `[13 §5.1]`. Making a paragraph bolder is not making its structure visible. |
+| **Bolding, highlighting, or emphasis as a comprehension device** | **PROHIBITED as a substitute for signaling.** Signaling means cues that reveal *organization* — headings, enumeration, "three things; here is the first" `[04 §3]`. Emphasis itself is **untested** here, not disproven — and Dunlosky et al. 2013's LOW rating for highlighting does not settle it, because it rates a learner's study technique, not an author's typography `[13 §5.1]`. Making a paragraph bolder is not making its structure visible. |
 
 ---
 
